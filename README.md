@@ -6,6 +6,11 @@ Looked at the sample found in the SignalR repository: https://github.com/aspnet/
 
 **Warning**: SignalR has been officially released and is as of yet subject to change.
 
+## Prerequisites
+
+* Requires .NET SDK RC2 - SDK Preview 1 (or later)
+* Visual Studio 2015 with tooling - or just Visual Studio Code 
+
 ## Instructions
 
 To run the sample:
@@ -13,6 +18,7 @@ To run the sample:
     dotnet restore
     dotnet run
 
+Open http://localhost:5000/Test in your web browser.
 
 ## SignalR Server
 
