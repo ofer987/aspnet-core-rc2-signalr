@@ -8,8 +8,14 @@ Looked at the sample found in the SignalR repository: https://github.com/aspnet/
 
 ## Prerequisites
 
-* Requires .NET SDK RC2 - SDK Preview 1 (or later)
-* Visual Studio 2015 with tooling - or just Visual Studio Code 
+Get .NET SDK RC2 - SDK Preview 1 (or later): https://www.microsoft.com/net
+
+As for IDE there are two alternatives:
+
+1. Visual Studio 2015 with updated tooling (Windows only)
+2. Visual Studio Code (X-plat)
+
+Xamarin Studio/MonoDevlop will eventually support .NET Core.
 
 ## Instructions
 
