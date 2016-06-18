@@ -2,9 +2,17 @@
 
 Based on template using Semantic UI generated with Yeoman (yo) using generator-aspnet.
 
-Based test on code found in the SignalR repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
+Looked at the sample found in the SignalR repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
 
 **Warning**: SignalR has been officially released and is as of yet subject to change.
+
+## Instructions
+
+To run the sample:
+
+    dotnet restore
+    dotnet run
+
 
 ## SignalR Server
 
