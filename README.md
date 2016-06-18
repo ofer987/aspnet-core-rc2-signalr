@@ -20,13 +20,13 @@ To run the sample:
 
 Open http://localhost:5000/Test in your web browser.
 
-## SignalR Server
+## Notes
 
 Since the latest "stable" build of SignalR server has a bug with resolving hubs, the project references a package from a third-party source providing a fix.
 
 More on the fix here: https://stackoverflow.com/questions/37475825/upgrading-to-rc2-with-signalr-3-0-results-in-invalidoperationexception-progre
 
-## Reference the SignalR server fix
+### Reference the SignalR server fix
 Add this to NuGet.config:
 
 ```
