@@ -20,6 +20,13 @@ To run the sample:
 
 Open http://localhost:5000/Test in your web browser.
 
+### Database
+
+Create the database using migrations (default: SQLite)
+
+    dotnet ef migrations add InitialMigration
+    dotnet ef database update
+
 ## Notes
 
 Since the latest "stable" build of SignalR server has a bug with resolving hubs, the project references a package from a third-party source providing a fix.
