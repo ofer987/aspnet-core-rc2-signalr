@@ -61,3 +61,24 @@ Add this dependency to package.json:
 To run tests, navigate to src/WebApplication.Tests and run this command:
 
 ```dotnet test```
+
+## Use SignalR in an app
+
+It is easy to use SignalR in an app.
+
+The .NET client is part of the "Microsoft.AspNet.SignalR.Client" package on NuGet.
+
+This code is the direct equivalent to JavaScript code in this project. 
+
+```CSharp
+var connection = new HubConnection("http://localhost:5000");
+IHubProxy test = connection.CreateHubProxy("Test");
+test.On<string>("Test", (data) =>
+{
+    Dispatcher.Invoke(() =>
+    {
+        label.Content = data;
+    });
+});
+connection.Start().Wait();
+```
