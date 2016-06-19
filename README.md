@@ -68,13 +68,15 @@ It is easy to use SignalR in an app.
 
 The .NET client is part of the "Microsoft.AspNet.SignalR.Client" package on NuGet.
 
-This code is the direct equivalent to JavaScript code in this project. 
+This code is the direct equivalent to the JavaScript code in this project. 
 
 ```CSharp
 var connection = new HubConnection("http://localhost:5000");
 IHubProxy test = connection.CreateHubProxy("Test");
 test.On<string>("Test", (data) =>
 {
+    // XAML-isms here but you get the idea.
+
     Dispatcher.Invoke(() =>
     {
         label.Content = data;
