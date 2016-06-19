@@ -55,3 +55,9 @@ Add this dependency to package.json:
 ```
 "Microsoft.AspNetCore.SignalR.Server": "0.1.0-rc2-final",
 ```
+
+## Tests
+
+To run tests, navigate to src/WebApplication.Tests and run this command:
+
+```dotnet test```
