@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using WebApplication.Hubs;
 
+// We want to use the AuthorizeAttribute from ASP.NET, not SignalR.
 using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute;
 
 namespace WebApplication.Controllers
