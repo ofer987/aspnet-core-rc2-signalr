@@ -1,6 +1,8 @@
 {
   "userSecretsId": "aspnet-WebApplication-84e95e37-7400-4d7c-a854-f523d782c07c",
 
+  "version": "1.0.0",
+
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.0-rc2-3002702",
@@ -73,6 +75,12 @@
 
   "frameworks": {
     "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0-rc2-3002702"
+        }
+      },
       "imports": [
         "dotnet5.6",
         "dnxcore50",
