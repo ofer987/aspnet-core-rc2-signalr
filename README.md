@@ -1,8 +1,10 @@
 # ASP.NET Core RC2 with SignalR
 
+Full template for ASP.NET Core app with SignalR.
+
 Based on template using Semantic UI generated with Yeoman (yo) using generator-aspnet.
 
-Looked at the sample found in the SignalR repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
+Learned from sample found in the SignalR repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
 
 **Warning**: SignalR has been officially released and is as of yet subject to change.
 
@@ -25,6 +27,8 @@ To run the sample:
     dotnet run
 
 Open http://localhost:5000/Test in your web browser.
+
+If you are registered and signed in and clicking the "Poke" button then the text above it will change.
 
 ### Database
 
