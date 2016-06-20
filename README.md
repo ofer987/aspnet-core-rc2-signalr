@@ -6,7 +6,7 @@ Based on template using Semantic UI generated with Yeoman (yo) using generator-a
 
 More samples can be found in the official SignalR-server repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
 
-**Warning**: SignalR has NOT been officially released and is as of yet subject to change.
+**Warning**: SignalR Server for ASP.NET Core has NOT yet been officially released and is as of yet subject to change.
 
 ## Prerequisites
 
