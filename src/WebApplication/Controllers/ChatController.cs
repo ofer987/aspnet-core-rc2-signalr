@@ -12,11 +12,11 @@ using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute
 
 namespace WebApplication.Controllers
 {
-    public class TestController : Controller
+    public class ChatController : Controller
     {
-        public TestController(IHubContext<TestHub> testHubContext) 
+        public ChatController(IHubContext<ChatHub> chatHubContext) 
         {
-            TestHubContext = testHubContext;
+            ChatHubContext = chatHubContext;
         }
 
         public IActionResult Index()
@@ -24,7 +24,7 @@ namespace WebApplication.Controllers
             return View();
         }
 
-        public IHubContext<TestHub> TestHubContext {get; set; }
+        public IHubContext<ChatHub> ChatHubContext {get; set; }
 
         static int count = 0;
 
@@ -32,7 +32,7 @@ namespace WebApplication.Controllers
         [Authorize] 
         public IActionResult Poke()
         {
-            TestHubContext.Clients.All.test($"Hello, World! ({++count})");
+            ChatHubContext.Clients.All.poke("Hey!");
             return Json(null);
         }
     }

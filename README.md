@@ -4,9 +4,9 @@ Full template for ASP.NET Core app with SignalR.
 
 Based on template using Semantic UI generated with Yeoman (yo) using generator-aspnet.
 
-Learned from sample found in the SignalR repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
+More samples can be found in the official SignalR-server repository: https://github.com/aspnet/SignalR-Server/tree/master/samples/SignalRSample.Web
 
-**Warning**: SignalR has been officially released and is as of yet subject to change.
+**Warning**: SignalR has NOT been officially released and is as of yet subject to change.
 
 ## Prerequisites
 
@@ -26,9 +26,10 @@ To run the sample:
     dotnet restore
     dotnet run
 
-Open http://localhost:5000/Test in your web browser.
+Open http://localhost:5000/Chat in your web browser.
 
-If you are registered and signed in and clicking the "Poke" button then the text above it will change.
+There you can broadcast messages if you have created an account and are logged in.
+
 
 ### Database
 

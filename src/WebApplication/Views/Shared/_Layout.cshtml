@@ -33,8 +33,8 @@
             <a href="/" class="header item">WebApplication</a>
             <menulink class="blue item" controller-name="Home" action-name="Index" menu-text="Home"></menulink>
             <menulink class="blue item" controller-name="Home" action-name="About" menu-text="About"></menulink>
-            <menulink class="blue item" controller-name="Home" action-name="Contact" menu-text="Contact">Contact</menulink>
-            <menulink class="blue item" controller-name="Test" action-name="Index" menu-text="Test">Test</menulink>
+            <menulink class="blue item" controller-name="Home" action-name="Contact" menu-text="Contact"></menulink>
+            <menulink class="blue item" controller-name="Chat" action-name="Index" menu-text="Chat"></menulink>
 
            @await Html.PartialAsync("_LoginPartial")
         </div>
@@ -45,7 +45,7 @@
         <menulink class="blue item" controller-name="Home" action-name="Index" menu-text="Home"></menulink>
         <menulink class="blue item" controller-name="Home" action-name="About" menu-text="About"></menulink>
         <menulink class="blue item" controller-name="Home" action-name="Contact" menu-text="Contact"></menulink>
-        <menulink class="blue item" controller-name="Test" action-name="Index" menu-text="Test">Test</menulink>
+        <menulink class="blue item" controller-name="Chat" action-name="Index" menu-text="Chat"></menulink>
 
         @if (SignInManager.IsSignedIn(User))
         {
