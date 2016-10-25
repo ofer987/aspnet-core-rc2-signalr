@@ -23,5 +23,10 @@ namespace WebApplication.Models.ManageViewModels
         [Display(Name = "Confirm new password")]
         [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public bool IsValid()
+        {
+            return NewPassword == ConfirmPassword;
+        }
     }
 }
